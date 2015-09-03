@@ -2,8 +2,8 @@
 # Nexell Application
 #
 
-EN_APP_PLAYER		:= true		# Nexell Player Application
-EN_APP_DUAL_AUDIO	:= false	# Nexell DualAudio Test Application
+EN_APP_PLAYER		:= true
+EN_APP_DUAL_AUDIO	:= false
 
 # Nexell Player
 ifeq ($(EN_APP_PLAYER),true)
