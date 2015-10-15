@@ -94,6 +94,14 @@ public class MainActivity extends ListActivity {
 	private static final String[] STORAGE_PATH 		= {
 		"/storage/sdcard0",
 		"/storage/sdcard1",
+		"/storage/usbdisk1",
+		"/storage/usbdisk2",
+		"/storage/usbdisk3",
+		"/storage/usbdisk4",
+		"/storage/usbdisk5",
+		"/storage/usbdisk6",
+		"/storage/usbdisk7",
+		"/storage/usbdisk8",
 	};
 
 	private static final String THUMBNAIL_PATH		= "/storage/sdcard0/.nxthumbnail/";
@@ -402,13 +410,13 @@ public class MainActivity extends ListActivity {
 	
 	public boolean isAudio( String fileName )
 	{
-		String strTemp = fileName.toLowerCase();
-		
-		for( int i = 0; i < AUDIO_EXTENSION.length; i++ ) {
-			if( strTemp.endsWith(AUDIO_EXTENSION[i]) ) {
-				return true;
-			}
-		}
+//		String strTemp = fileName.toLowerCase();
+//		
+//		for( int i = 0; i < AUDIO_EXTENSION.length; i++ ) {
+//			if( strTemp.endsWith(AUDIO_EXTENSION[i]) ) {
+//				return true;
+//			}
+//		}
 		return false;
 	}
 	
