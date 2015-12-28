@@ -19,3 +19,5 @@ LOCAL_MODULE_OWNER	:= nexell
 LOCAL_MODULE_TAGS	:= optional
 LOCAL_CERTIFICATE	:= PRESIGNED
 include $(BUILD_PREBUILT)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
