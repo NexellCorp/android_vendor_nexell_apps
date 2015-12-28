@@ -3,4 +3,5 @@
 	vendor/nexell/apps/SmartSync/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so
 	
 PRODUCT_PACKAGES += \
-	SmartSync
+	SmartSync \
+	SmartAirSync
